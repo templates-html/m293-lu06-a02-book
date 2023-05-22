@@ -16,4 +16,4 @@ jobs:
       - name: export-grade
         if: always()
         run: |
-          curl -X POST "https://it.bzz.ch/fgitapi/gh_grade/${{ github.repository }}/1"
+          curl -X POST "https://it.bzz.ch/fgitapi/gh_grade/${{ github.repository }}/1/1"
