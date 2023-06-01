@@ -34,7 +34,7 @@ jobs:
     name: Report to Moodle that Linter was successfully
     runs-on: ubuntu-latest
     steps:
-      - name: Call FGIT-API and send 1 point to Moodle
+      - name: Call FGIT-API and send 2 points to Moodle
         if: always()
         run: |
-          curl -X POST "https://it.bzz.ch/fgitapi/gh_grade/${{ github.repository }}/1/1"
+          curl -X POST "https://it.bzz.ch/fgitapi/gh_grade/${{ github.repository }}/2/2"
