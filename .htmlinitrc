@@ -23,12 +23,12 @@
   "tagname-specialchars": true,
   "empty-tag-not-self-closed": false,
   "src-not-empty": true,
-  "href-abs-or-rel": false,
+  "href-abs-or-rel": true,
   "id-class-ad-disabled": true,
-  "id-class-value": "dash",
+  "id-class-value": true,
   "id-unique": true,
   "inline-script-disabled": true,
   "inline-style-disabled": true,
-  "space-tab-mixed-disabled": "space",
+  "space-tab-mixed-disabled": true,
   "spec-char-escape": true
 }
